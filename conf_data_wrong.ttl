@@ -4,14 +4,14 @@
 @prefix schema: <http://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ex:Bob
+ex:Trudy
 	a schema:Person ;
 	schema:givenName "Robert" ;
 	schema:familyName "Junior" ;
-	schema:birthDate "1980-07-07"^^xsd:date ;
+	schema:birthDate "1950-07-07"^^xsd:date ;
 	schema:deathDate "1968-09-10"^^xsd:date ;
-	schema:address ex:BobsAddress .
+	schema:address ex:TrudysAddress .
 
-ex:BobsAddress
+ex:TrudysAddress
 	schema:streetAddress "1600 Amphitheatre Pkway" ;
-	schema:postalCode 9404 .
+	schema:postalCode 94004 .
